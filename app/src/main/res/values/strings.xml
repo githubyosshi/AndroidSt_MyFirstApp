@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="massege_text">...</string>
+    <string name="ButtonText">Change!</string>
 </resources>

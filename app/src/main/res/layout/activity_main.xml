@@ -7,12 +7,20 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <TextView
-            android:text="..."
+            android:text="@string/massege_text"
             android:layout_width="wrap_content"
-            android:layout_height="15dp"
+            android:layout_height="14dp"
             android:id="@+id/messagetextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            android:textSize="12sp"/>
+            android:textSize="36sp" android:textStyle="bold"/>
+    <Button
+            android:text="@string/ButtonText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/changebutton" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/messagetextView" android:layout_marginTop="32dp"
+            android:onClick="changeTextView"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
