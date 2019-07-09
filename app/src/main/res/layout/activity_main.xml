@@ -9,8 +9,8 @@
     <TextView
             android:text="@string/massege_text"
             android:layout_width="wrap_content"
-            android:layout_height="14dp"
-            android:id="@+id/messagetextView"
+            android:layout_height="48dp"
+            android:id="@+id/messageTextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
@@ -21,6 +21,6 @@
             android:layout_height="wrap_content"
             android:id="@+id/changebutton" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/messagetextView" android:layout_marginTop="32dp"
+            app:layout_constraintTop_toBottomOf="@+id/messageTextView" android:layout_marginTop="32dp"
             android:onClick="changeTextView"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

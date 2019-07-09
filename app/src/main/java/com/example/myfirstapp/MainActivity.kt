@@ -12,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
     fun changeTextView(view: View) {
-        messageTextView.text = "Hello there!"
+        messageTextView.text = "Hello there! Again!"
     }
 }
